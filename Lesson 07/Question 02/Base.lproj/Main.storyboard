@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btn_01" translatesAutoresizingMaskIntoConstraints="NO" id="sqn-pF-I9w">
+                                <rect key="frame" x="110" y="28" width="100" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vC-Sa-llx">
+                                <rect key="frame" x="61" y="468" width="32" height="36"/>
+                                <state key="normal" image="sub_blue_up"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3l-aY-6Gx">
+                                <rect key="frame" x="61" y="512" width="36" height="36"/>
+                                <state key="normal" title="Button" image="sub_blue_down"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xD8-lq-Slc">
+                                <rect key="frame" x="30" y="491" width="32" height="32"/>
+                                <state key="normal" title="Button" image="sub_blue_prev"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUR-dI-0gk">
+                                <rect key="frame" x="94" y="491" width="32" height="32"/>
+                                <state key="normal" title="Button" image="sub_blue_next"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1L-oD-wsp">
+                                <rect key="frame" x="222" y="472" width="32" height="32"/>
+                                <state key="normal" title="Button" image="sub_blue_rotate_ccw"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAP-DV-SSV">
+                                <rect key="frame" x="222" y="510" width="32" height="32"/>
+                                <state key="normal" title="Button" image="sub_blue_add"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GB3-Za-g4C">
+                                <rect key="frame" x="259" y="510" width="32" height="32"/>
+                                <state key="normal" title="Button" image="sub_blue_remove"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPI-vd-rX5">
+                                <rect key="frame" x="260" y="473" width="32" height="32"/>
+                                <state key="normal" title="Button" image="sub_blue_rotate_cw"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="475"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_01" width="256" height="256"/>
+        <image name="sub_blue_add" width="37" height="36"/>
+        <image name="sub_blue_down" width="32" height="36"/>
+        <image name="sub_blue_next" width="36" height="32"/>
+        <image name="sub_blue_prev" width="36" height="32"/>
+        <image name="sub_blue_remove" width="36" height="12"/>
+        <image name="sub_blue_rotate_ccw" width="40" height="34"/>
+        <image name="sub_blue_rotate_cw" width="40" height="34"/>
+        <image name="sub_blue_up" width="32" height="36"/>
+    </resources>
+</document>
